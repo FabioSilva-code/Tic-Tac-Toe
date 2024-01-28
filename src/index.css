@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: gray;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.text-3xl {
+  color: #41566d; 
+  
+}
+
+
+#tabuleiro {
+  background-color: #1a1a1a; /* Adjust background color */
+  padding: 10px; /* Adjust padding */
+  border-radius: 8px; /* Adjust border radius */
+  margin: 10px auto; /* Center the container horizontally */
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust box shadow */
+}
+
+  .cell {
+    border: 4px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    width: 60px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    background-color: #fff; /* Adjust background color */
+  }
+
+  .cell:hover {
+    background-color: #e2e8f0; /* Adjust hover background color */
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #161515; /* Adjust title color */
+ 
+      font-family: 'Arial', sans-serif; /* Adjust font family */
+   
+    margin-bottom: 20px;
+  }
+  button {
+    background-color: #4caf50; /* Adjust button background color */
+    color: #fff; /* Adjust button text color */
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  button:hover {
+    background-color: #45a049; /* Adjust button hover background color */
+  }
